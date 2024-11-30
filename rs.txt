@@ -1,1 +1,2 @@
-https://github.com/9b80b4b2-13cc-4a6d-ad5e-481e9cc3c492
+image - https://github.com/Saviru/exampleweb/blob/main/img1.jpg?raw=true
+video - https://github.com/Saviru/exampleweb/raw/refs/heads/main/vid1.mp4
