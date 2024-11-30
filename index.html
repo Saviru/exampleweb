@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1>This is a h1 title</h1>
+        <hr>
+        <img src="./img1.jpg" alt="image" srcset="">
+        <p id="para1">this is paragraph 1</p>
+        <p>this is paragraph 1</p>
+        <p class="paracls">this is paragraph 2</p>
+        <p class="paracls">this is paragraph 3</p>
+    </div>
+    <br>
+    <marquee width="50%" direction="left" height="100px">This is an example for marquee.</marquee>
+    <br>
+    <h2>List example</h2>
+    <dl>
+        <dt><h3>Unordered list</h3></dt>
+        <dd>
+            <ul type="square">
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+        </dd>
+        <dt><h3>Ordered list</h3></dt>
+        <dd>
+            <ol type="i" start="3">
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+        </dd>
+    </dl>
+    <br>
+    <h2>Table example</h2>
+    <table id="tb1">
+        <caption>Example table</caption>
+        <tr> 
+            <th>col1</th>
+            <th>col2</th>
+        </tr>
+        <tr>
+            <td>example</td>
+            <td>example</td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <div id="tbldiv">
+        <table>
+            <tr>
+                <th>col1</th>
+                <th>col2</th>
+                <th>col3</th>
+            </tr>
+            <tr>
+                <td>example 1</td>
+                <td colspan="2">Example 2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Example 3</td>
+                <td>Example 4</td>
+                <td>Example 5</td>
+            </tr>
+            <tr>
+                <td colspan="2">Example 6</td>
+            </tr>
+            <tr>
+                <td colspan="3">Example 7</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <h2>Form example</h2>
+    <form action="#">
+        <fieldset>
+            <legend><h2>Form:</h2></legend>
+            <fieldset>
+                <legend>Personal</legend>
+                <label for="name">Name: </label>
+                <input id="name" type="text">
+                <br>
+                <br>
+                <label for="id">ID: </label>
+                <input id="id" type="number">
+                <br>
+                <br>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob">
+                <br><br>
+                <label>Gender: </label><br>
+                <input type="radio" value="m" id="m">
+                <label for="m">Male</label>
+                <input type="radio" value="fm" id="fm">
+                <label for="fm">Female</label>
+                <input type="radio" value="em" id="em">
+                <label for="em">Email</label>
+            </fieldset>
+            <fieldset>
+                <legend>Other</legend>
+                <input type="checkbox" id="tnc">
+                <label for="tnc">Example1</label>
+                <input type="checkbox" id="tnc2">
+                <label for="tnc2">Example2</label>
+                <br>
+                <input type="checkbox" id="tnc">
+                <label for="tnc">Example3</label>
+                <input type="checkbox" id="tnc2">
+                <label for="tnc2">Example4</label>
+                <br>
+                <br>
+                <label for="txtar">Comments:</label><br>
+                <textarea id="txtar"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+    <div class="div1">
+        <h1>example text</h1>
+        <p>this is an example paragraph. <br>
+        with a hyperlink. <br>
+        <a href="http://www.google.com">Goto google</a></p>
+    </div>
+    <div id="div2">
+        <h2>Example video.</h2>
+        <hr>
+        <p>This is a sample video. <sup>(with controls.)</sup></p>
+        <br>
+        <video src="./vid1.mp4" controls width="500px" height="250px"></video>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+.div1 {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+#para1 {
+    text-align: left;
+    font-family: impact;
+}
+
+.paracls {
+    font-style: italic;
+    font-weight: 600;
+    text-align: right;
+    color: red;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#tbldiv {
+    color: green;
+    text-align: center;
+    justify-items: center;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tb1 {
+    background-color: gray;
+    color: red;
+}
+
+#div2 {
+    background-color: white;
+    font-family: arial;
+    font-style: italic;
+    text-decoration: underline;
+}
